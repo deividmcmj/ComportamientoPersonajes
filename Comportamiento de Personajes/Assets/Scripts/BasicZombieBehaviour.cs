@@ -1,23 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+
 
 public class BasicZombieBehaviour : MonoBehaviour
 {
-    private float speed;
-    private int health;
-    private int infectionTime;
-    public Vector3 direction;
-    public CharacterController player;
+    private float velocidad;
+    private int vida;
+    private int tiempoInfeccion;
+    public Vector3 direccion;
+    public CharacterController jugador;
+ 
     // Start is called before the first frame update
 
     void Start()
     {
-        speed = 5.0f;
-        health = 1;
-        infectionTime = 10;
-        direction = newDirection();
-        player = GetComponent<CharacterController>();
+        velocidad = 5.0f;
+        vida = 1;
+        tiempoInfeccion = 10;
+        direccion = newDirection();
+        jugador = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -26,7 +29,7 @@ public class BasicZombieBehaviour : MonoBehaviour
         wander();
     }
 
-    public void wander()
+    public void Deambular()
     {
         if (Input.GetKeyDown("space"))
         {
@@ -36,12 +39,12 @@ public class BasicZombieBehaviour : MonoBehaviour
         player.Move(direction * speed * Time.deltaTime);
     }
 
-    public void follow()
+    public void Seguir()
     {
 
     }
 
-    public Vector3 newDirection()
+    public Vector3 nuevaDireccion()
     {
         Vector3 newVector = new Vector3(0, 0, 0);
 
@@ -52,12 +55,12 @@ public class BasicZombieBehaviour : MonoBehaviour
         return newVector;
     }
 
-    public bool isAlive()
+    public bool estaVivo()
     {
         return health != 0;
     }
 
-    public void attack()
+    public void Atacar()
     {
         //Iniciar la mision de ataque
         
@@ -78,7 +81,7 @@ public class BasicZombieBehaviour : MonoBehaviour
         }
     }
 
-    public int getInfectionTime()
+    public int getTiempoInfeccion()
     {
         return infectionTime;
     }
