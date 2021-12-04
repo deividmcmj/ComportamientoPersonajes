@@ -49,6 +49,14 @@ public class NormalHumanBehaviour : MonoBehaviour
     void Update()
     {
         fsm.Update();
+        if (fsm.GetCurrentState() == humanoState)
+        {
+            fsmHumano.Update();
+        }
+        if (fsm.GetCurrentState() == heridoState)
+        {
+            fsmHerido.Update();
+        }
     }
 
     private void Deambular()
