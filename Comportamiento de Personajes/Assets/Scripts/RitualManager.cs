@@ -28,7 +28,7 @@ public class RitualManager : MonoBehaviour
     private void ComprobarArea()
     {
         Collider[] collisiones = Physics.OverlapSphere(this.transform.position, 2f);
-        List <BasicZombieBehaviour2>array_zombiesRitual = new List<BasicZombieBehaviour2>();
+        List <BasicZombieBehaviour>array_zombiesRitual = new List<BasicZombieBehaviour>();
         int numZombies = 0;
 
         foreach (var hitCollider in collisiones)
@@ -36,8 +36,8 @@ public class RitualManager : MonoBehaviour
             if (hitCollider.GetComponent<GenericZombie>() != null && numZombies < NUM_ZOMBIES_PARA_RITUAL
                 && hitCollider.CompareTag("ZombieBasico") && hitCollider != null)
             {
-                if (!array_zombiesRitual.Equals(hitCollider.GetComponent<BasicZombieBehaviour2>())) 
-                array_zombiesRitual.Add(hitCollider.GetComponent<BasicZombieBehaviour2>());
+                if (!array_zombiesRitual.Equals(hitCollider.GetComponent<BasicZombieBehaviour>())) 
+                array_zombiesRitual.Add(hitCollider.GetComponent<BasicZombieBehaviour>());
             }
 
             if (array_zombiesRitual.Count >= NUM_ZOMBIES_PARA_RITUAL)

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-public class NormalHumanBehaviour : MonoBehaviour
+public class NormalHumanBehaviour1 : MonoBehaviour
 {
     //Manager
     [SerializeField] protected ApocalipsisManager apocalipsisManager;

@@ -13,10 +13,7 @@ GameObject:
   - component: {fileID: 3565819073339378268}
   - component: {fileID: 597747740322195692}
   - component: {fileID: 478892278290437625}
-<<<<<<< HEAD
-=======
   - component: {fileID: 5458011317370886379}
->>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Layer: 0
   m_Name: Flecha
   m_TagString: Untagged
@@ -61,18 +58,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-<<<<<<< HEAD
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-=======
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 2afb6a01abcc741298392a7d8c260df4, type: 2}
->>>>>>> c72c6357df83445316b91656177c595622b09053
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -93,10 +83,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
-=======
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> c72c6357df83445316b91656177c595622b09053
 --- !u!135 &597747740322195692
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -126,8 +113,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
-<<<<<<< HEAD
-=======
 --- !u!114 &5458011317370886379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,4 +125,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7691cea443e254c1a874db521be0e827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
->>>>>>> c72c6357df83445316b91656177c595622b09053
