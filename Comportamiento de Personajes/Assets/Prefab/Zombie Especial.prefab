@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 2108267424572111939}
   - component: {fileID: 4054064840766072761}
   - component: {fileID: 2681635695350830793}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +110,11 @@ GameObject:
   - component: {fileID: 3306470436943855579}
   - component: {fileID: 9198403201901261908}
   - component: {fileID: 3202534297528216843}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Vida 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +189,11 @@ GameObject:
   - component: {fileID: 5388212657896197020}
   - component: {fileID: 4195201163875322425}
   - component: {fileID: 2323647382708534711}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Vida 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,9 +272,15 @@ GameObject:
   - component: {fileID: 3583933783652358780}
   - component: {fileID: 2684862167009359899}
   - component: {fileID: 6333187877319682162}
+<<<<<<< HEAD
   m_Layer: 0
   m_Name: Zombie Especial
   m_TagString: ZombieBasico
+=======
+  m_Layer: 7
+  m_Name: Zombie Especial
+  m_TagString: Untagged
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,6 +416,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d0c30cca25554d70a6d7644c0e56a88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  apocalipsisManager: {fileID: 0}
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   agente: {fileID: 2684862167009359899}
   jugador: {fileID: 0}
   vida: 0
@@ -428,7 +450,11 @@ GameObject:
   - component: {fileID: 5349958272788791248}
   - component: {fileID: 3481580402241257583}
   - component: {fileID: 2508920362634753167}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +555,11 @@ GameObject:
   - component: {fileID: 4699786924070524816}
   - component: {fileID: 6965705239380339385}
   - component: {fileID: 556327459219986540}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Estado
   m_TagString: Untagged
   m_Icon: {fileID: 0}

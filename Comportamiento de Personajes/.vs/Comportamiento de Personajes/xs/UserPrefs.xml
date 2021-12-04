@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{25CCBB6D-CB89-99AB-8A11-C21672966E28}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BasicZombieBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NormalHumanBehaviour1.cs">
     <Files>
-      <File FileName="Assets/Scripts/BasicZombieBehaviour.cs" Line="12" Column="19" />
-      <File FileName="Assets/Scripts/NormalHumanBehaviour.cs" Line="11" Column="42" />
+      <File FileName="Assets/Scripts/Zombies/BasicZombieBehaviour.cs" Line="12" Column="16" />
+      <File FileName="Assets/Scripts/Zombies/GenericZombie.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/NormalHumanBehaviour1.cs" Line="10" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Comportamiento de Personajes" expanded="True">
-            <Node name="Assembly-CSharp" selected="True" />
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Unity.CollabProxy.Editor PreferredExecutionTarget="3f22c083-dea1-4730-b1c8-87df6f932276" />
+  <MonoDevelop.Ide.ItemProperties.Unity.CollabProxy.Editor PreferredExecutionTarget="af144709-1aca-42cb-ad5a-c833a8b7cea9" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>Assembly-CSharp.csproj</String>

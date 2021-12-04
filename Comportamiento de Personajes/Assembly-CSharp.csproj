@@ -146,9 +146,19 @@
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Utility curves API\UtilityAction.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Utility curves API\UtilitySystemEngine.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Utility curves API\WeightedSumFusion.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\BasicZombieBehaviour.cs" />
+=======
+    <Compile Include="Assets\Scripts\ApocalipsisManager.cs" />
+>>>>>>> c72c6357df83445316b91656177c595622b09053
     <Compile Include="Assets\Scripts\Flecha.cs" />
     <Compile Include="Assets\Scripts\NormalHumanBehaviour.cs" />
+    <Compile Include="Assets\Scripts\NormalHumanBehaviour1.cs" />
+    <Compile Include="Assets\Scripts\RitualManager.cs" />
+    <Compile Include="Assets\Scripts\Zombies\ArmoredZombieBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Zombies\BasicZombieBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Zombies\GenericZombie.cs" />
+    <Compile Include="Assets\Scripts\Zombies\RareZombieBehaviour.cs" />
     <None Include="Assets\Intelligent Behaviours GUI Package\GUI Control\Resources\ScriptTemplates\Machine_Template.cs.txt" />
     <None Include="Assets\Intelligent Behaviours GUI Package\GUI Control\Resources\ScriptTemplates\CustomPerception_Template.cs.txt" />
     <Reference Include="UnityEngine">

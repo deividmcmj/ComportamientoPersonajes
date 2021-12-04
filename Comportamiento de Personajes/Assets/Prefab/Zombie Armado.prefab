@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 3884373280095021461}
   - component: {fileID: 1475992818898785468}
   - component: {fileID: 8316063030382208617}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Estado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +91,11 @@ GameObject:
   - component: {fileID: 4534615820715033045}
   - component: {fileID: 4936474372684103274}
   - component: {fileID: 6197399912149961354}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,9 +201,15 @@ GameObject:
   - component: {fileID: 5002478211199935609}
   - component: {fileID: 5877870750266852894}
   - component: {fileID: 887369954242796187}
+<<<<<<< HEAD
   m_Layer: 0
   m_Name: Zombie Armado
   m_TagString: ZombieBasico
+=======
+  m_Layer: 7
+  m_Name: Zombie Armado
+  m_TagString: Untagged
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -363,7 +377,11 @@ GameObject:
   - component: {fileID: 4473808880144512409}
   - component: {fileID: 5685995324916823100}
   - component: {fileID: 6120303244728157106}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Vida 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +456,11 @@ GameObject:
   - component: {fileID: 3128145594192695105}
   - component: {fileID: 1012626471943794890}
   - component: {fileID: 6839287224098680549}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Vida 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +535,11 @@ GameObject:
   - component: {fileID: 6427233687509959134}
   - component: {fileID: 826310881805142609}
   - component: {fileID: 6386456517969072910}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Vida 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -589,7 +615,11 @@ GameObject:
   - component: {fileID: 7607421623327457862}
   - component: {fileID: 5517474529907694012}
   - component: {fileID: 5901961610373507276}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Cara
   m_TagString: Untagged
   m_Icon: {fileID: 0}

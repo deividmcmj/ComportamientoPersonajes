@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 1667774784782153487}
   - component: {fileID: 4573816780424605733}
   - component: {fileID: 5653224712554347618}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 10
+>>>>>>> c72c6357df83445316b91656177c595622b09053
   m_Name: Arma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
