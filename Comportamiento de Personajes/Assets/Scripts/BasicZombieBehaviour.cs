@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
 
@@ -19,24 +18,24 @@ public class BasicZombieBehaviour : MonoBehaviour
         velocidad = 5.0f;
         vida = 1;
         tiempoInfeccion = 10;
-        direccion = newDirection();
+        direccion = nuevaDireccion();
         jugador = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        wander();
+        Deambular();
     }
 
     public void Deambular()
     {
         if (Input.GetKeyDown("space"))
         {
-            direction = newDirection();
+            direccion = nuevaDireccion();
         }
 
-        player.Move(direction * speed * Time.deltaTime);
+        jugador.Move(direccion * velocidad * Time.deltaTime);
     }
 
     public void Seguir()
@@ -57,7 +56,7 @@ public class BasicZombieBehaviour : MonoBehaviour
 
     public bool estaVivo()
     {
-        return health != 0;
+        return vida != 0;
     }
 
     public void Atacar()
@@ -83,7 +82,7 @@ public class BasicZombieBehaviour : MonoBehaviour
 
     public int getTiempoInfeccion()
     {
-        return infectionTime;
+        return tiempoInfeccion;
     }
 
 }
